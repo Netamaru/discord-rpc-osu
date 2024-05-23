@@ -1,0 +1,23 @@
+{
+  "name": "rpc-discord-osu",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "discord-rpc": "^4.0.1",
+    "dotenv": "^16.4.5",
+    "osu-api-extended": "^2.8.4"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "pkg": {
+    "scripts": "index.js",
+    "targets": [
+      "node14-win-x64",
+      "node14-macos-x64",
+      "node14-linux-x64"
+    ]
+  },
+  "bin": {
+    "start": "index.js"
+  }
+}
